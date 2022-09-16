@@ -162,7 +162,7 @@ form.yo input[type=text] {
 }
 .gbox img {
     width: 100%;
-    height: auto;
+    height: 300px;
 }
 
 .gbox h3 {
@@ -197,7 +197,7 @@ header.fr {
 
     .ffbox img {
         width: 100%;
-        height: auto;
+        height: 300px;
     }
 
     .ffbox h3 {
