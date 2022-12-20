@@ -11,66 +11,7 @@
     box-sizing: border-box;
     
 }
-    .payment{
-        width:850px;
-        height:500px;
-        border:1px solid;
-        display:flex;
-        flex-direction:column;
-      padding-left:30px;
-        justify-content:center;
-        background-color:white;
-        
-
-            }
-    .payment h1{
-        text-align:center;
-    }
-    .first-row{
-        display:flex;
-    }
-    .owner{
-width:100%;
-margin-right:40px;
-
-margin-right:40px;
-    }
-.input-field {
-    border: 1px solid;
-}
-.input-field input{
-    width:100%;
-    border:none;
-    outline:none;
-    padding:10px;
-}
-    .cards img{
-        width:100px;
-        cursor:pointer;
-    }
-    .selection{
-        display:flex;
-        justify-content:space-between;
-        align-items:center;
-    }
-    .selection select{
-        padding:10px 20px;
-    }
-    a.co{
-        background-color:black;
-        color:white;
-        text-align:center;
-        text-transform:uppercase;
-        padding:10px;
-        font-size:18px;
-        transition:0.5s;
-    }
-    a.co:hover{
-        background-color:grey;
-        color:black;
-        
-      
-    }
+   
 .las {
     height: 100vh;
     width: 100%;
@@ -218,5 +159,282 @@ section.paa {
         width:300px;
         height:auto;
     }
-}
+    /*------------------------second sem-----------------------------------*/
+}#field1{
+    font-size: 20px;
+    border-radius: 5px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 400px;
 
+    
+    } #cvv{
+        font-size: 20px;
+    border-radius: 5px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 200px;
+    }
+    #cardnum{
+        font-size: 20px;
+        border-radius: 5px;
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 400px;
+
+    }
+    #field1:focus{
+        background-color: gainsboro;
+    }
+    .input-field{
+        border-radius:50px ;
+    }
+     .first-row{
+        display:flex;
+        padding-right: 30px;
+    }
+    .owner{
+width:100%;
+margin-right:40px;
+padding-right: 10px;
+
+margin-right:40px;
+    }#er1{
+        padding-bottom: 10px;
+        color: red;
+        font-weight: bold;
+    }
+    #er3{
+        padding-bottom: 10px;
+        color: red;
+        font-weight: bold;
+    }#er2{
+        padding-bottom: 10px;
+        color: red;
+        font-weight: bold;
+    }
+    .selection{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        
+    }
+    .selection select{
+        padding:10px 20px;
+    }.co{
+        padding-right: 30px;
+        width: 800px;
+    }
+    .co{
+        background-color:black;
+        color:white;
+        text-align:center;
+        text-transform:uppercase;
+        padding:10px;
+        font-size:18px;
+        transition:0.5s;
+        padding-right: 30px;
+    }
+    .co:hover{
+        background-color:white;
+        color:black;
+        font-weight: bold;
+        
+      
+    } .payment{
+        width:850px;
+        height:500px;
+        border:1px solid;
+        display:flex;
+        flex-direction:column;
+      padding-left:30px;
+        justify-content:center;
+
+        background: linear-gradient(rgba(245, 88, 114, 0.699),rgb(0, 183, 255),white);
+        border-radius: 30px;
+        
+
+            }
+    .payment h1{
+        text-align:center;
+    }
+  
+    .cards img{
+        width:100px;
+        cursor:pointer;
+        padding-right: 20px;
+    }
+    .done{
+        font-size: 35px;
+        padding-left: 150px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #first_row{
+        padding-left: 250px;
+        padding-bottom: 20px;
+        justify-content: space-around;
+        display: inline-flex;
+        flex-direction: row;
+    }#one100{
+        padding: 10px;
+        padding-right: 20px;
+        color:white;
+        background: rgba(248, 2, 84, 0.829);
+        border-radius: 10px;
+        cursor: pointer;
+    }.b1{
+        padding-right: 60px;
+        font-size: 25px;
+    }#five500{
+        padding:10px;
+        padding-right: 20px;
+        color:white;
+        background: rgba(248, 2, 84, 0.829);
+        border-radius: 10px;
+        cursor: pointer;
+    }#five500:hover{
+        background-color: black;
+    }
+    #one100:hover{
+        background-color: black;
+    }
+    .b2{
+        padding-right: 60px;
+        font-size: 25px;
+    }#thou1000{
+        padding: 10px;
+        padding-right: 20px;
+        color:white;
+        background: rgba(248, 2, 84, 0.829);
+        border-radius: 10px;
+        cursor: pointer;
+
+    }#thou1000:hover{
+        background-color: black;
+
+    }
+    .b3{
+        font-size: 25px;
+    } #second_row{
+        padding-left: 230px;
+        padding-bottom: 20px;
+        justify-content: space-around;
+        display: inline-flex;
+        flex-direction: row;
+        cursor: pointer;
+
+    }#two1000{
+        padding: 10px;
+        padding-right: 20px;
+        border-radius: 10px;
+        background:rgb(248, 60, 60) ;
+        color:white;
+        cursor: pointer;
+    }.b4{
+        padding-right: 60px;
+        font-size: 25px;
+
+    }
+    #five1000{
+        padding: 10px;
+        padding-right: 20px;
+        border-radius: 10px;
+        background:rgb(248, 60, 60) ;
+        color:white;
+        cursor: pointer;
+    }#five1000:hover{
+        background-color: black;
+    }#two1000:hover{
+        background-color: black;
+    }
+    .b5{
+        padding-right: 60px;
+        font-size: 25px;
+    }#ten1000{
+        padding: 10px;
+        padding-right: 20px;
+        border-radius: 10px;
+        background:rgb(248, 60, 60) ;
+        color:white;
+        cursor: pointer;
+    }
+    #ten1000:hover{
+        background-color: black;
+
+    }
+    .b6{
+        padding-right: 60px;
+        font-size: 25px;
+    }
+    #button_sec{
+        margin-left: 170px;
+        margin-right: 320px;
+        border-radius: 10px;
+        background:  linear-gradient(rgba(245, 88, 114, 0.699),rgba(219, 219, 219, 0.712),rgb(0, 183, 255),white);
+        cursor: pointer;
+    }/*-----------mc-----------------------*/
+    @media only screen and (max-width:1000px){
+       .done{
+        font-size: 30px;
+       } #first_row {
+        padding-left: 0px;
+        padding-bottom: 20px;
+        justify-content: space-around;
+        display: inline-flex;
+        flex-direction: row;
+    }
+    #one100 {
+        padding: 10px;
+        padding-right: 40px;
+        color: white;
+        background: rgba(248, 2, 84, 0.829);
+        border-radius: 10px;
+        cursor: pointer;
+        
+        
+    }#second_row {
+        padding-left: 0px;
+        padding-bottom: 20px;
+        justify-content: space-around;
+        display: inline-flex;
+        flex-direction: row;
+    }#button_sec{
+        margin-left: 70px;
+        margin-right: 330px;
+        width: 400px;
+        border-radius: 10px;
+        background:  linear-gradient(rgba(245, 88, 114, 0.699),rgba(219, 219, 219, 0.712),rgb(0, 183, 255),white);
+}h1 {
+    margin: 20px 0px 20px;
+    font-size: 35px;
+    }#field1 {
+        font-size: 15px;
+        border-radius: 2px;
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 200px;
+    }h3 {
+        
+        font-size: 15px;
+       
+        font-weight: bold;
+    }#cvv {
+        transform: translate(-60px,0px);
+        font-size: 15px;
+        border-radius: 2px;
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 100px;
+    }.cards img {
+        width: 100px;
+        cursor: pointer;
+        padding-right: 50px;
+        align-items: center;
+    }.co{
+        width: 400px;
+        align-self: center;
+    }.payment{
+        width: 550px;
+    }
+}
