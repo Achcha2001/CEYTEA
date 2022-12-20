@@ -23,9 +23,14 @@ let pmessage5 = 'Not a valid card number'
         prer3.innerText = pmessage4;
     }if(prchnum.value.length !== 16){
         prer3.innerText = pmessage5;
+    }else{
+        alert('thanks for the donation')
     }
 
 
     
  }
  btncon.addEventListener('click',perror)
+ 
+    
+ 
